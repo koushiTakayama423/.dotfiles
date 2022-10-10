@@ -1,0 +1,2 @@
+brew:
+	.bin/brew.sh
