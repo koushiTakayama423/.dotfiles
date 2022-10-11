@@ -1,3 +1,2 @@
 #!/bin/bash
-
-brew bundle --global
+brew bundle
