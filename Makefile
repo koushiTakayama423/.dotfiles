@@ -1,2 +1,2 @@
-brew:
-	.bin/brew.sh
+brew:.bin/brew.sh
+	cd .bin && source brew.sh
