@@ -1,1 +1,6 @@
 brew "go"
+brew "git"
+
+cask "postman"
+cask "google-chrome"
+cask "visual-studio-code"
