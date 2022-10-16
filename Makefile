@@ -1,7 +1,7 @@
+OBJS = .bin/setup.sh .bin/brew.sh
+PROGRAM = myprogram
 
-setup:.bin/setup.sh
-	cd .bin && source setup.sh
+all: $(PROGRAM)
 
-brew:.bin/brew.sh
-	cd .bin && source brew.sh
-
+$(PROGRAM): $(OBJS)
+	cd .bin && source setup.sh && source brew.sh
