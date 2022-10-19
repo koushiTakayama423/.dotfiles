@@ -3,6 +3,6 @@ brew "git"
 
 cask "postman"
 cask "google-chrome"
+cask "firefox"
 cask "visual-studio-code"
-cask "virtualbox"
-cask "vagrant"
+cask "utm"

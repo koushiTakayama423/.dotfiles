@@ -4,4 +4,4 @@ PROGRAM = myprogram
 all: $(PROGRAM)
 
 $(PROGRAM): $(OBJS)
-	cd .bin && source setup.sh && source brew.sh
+	cd .bin && bash setup.sh && bash brew.sh
