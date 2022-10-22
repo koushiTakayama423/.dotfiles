@@ -1,8 +1,13 @@
 brew "go"
 brew "git"
+brew "tmux"
 
 cask "postman"
 cask "google-chrome"
 cask "firefox"
 cask "visual-studio-code"
 cask "utm"
+cask "raycast"
+cask "flycut"
+cask "alacritty"
+cask "spotify"
