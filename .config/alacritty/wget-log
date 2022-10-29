@@ -1,0 +1,15 @@
+--2022-10-29 14:39:16--  https://raw.githubusercontent.com/alacritty/alacritty/master/alacritty.yml
+raw.githubusercontent.com (raw.githubusercontent.com) をDNSに問いあわせています... 2606:50c0:8003::154, 2606:50c0:8000::154, 2606:50c0:8001::154, ...
+raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8003::154|:443 に接続しています... 失敗しました: Operation timed out.
+raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443 に接続しています... 失敗しました: Operation timed out.
+raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443 に接続しています... 失敗しました: Operation timed out.
+raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8002::154|:443 に接続しています... 失敗しました: Operation timed out.
+raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 31453 (31K) [text/plain]
+`/Users/koushitakayama/.config/alacritty/alacritty.yml' に保存中
+
+     0K .......... .......... ..........                      100% 3.79M=0.008s
+
+2022-10-29 14:43:07 (3.79 MB/s) - `/Users/koushitakayama/.config/alacritty/alacritty.yml' へ保存完了 [31453/31453]
+
