@@ -2,6 +2,7 @@ brew "go"
 brew "git"
 brew "tmux"
 brew "wget"
+brew "zsh"
 
 cask "postman"
 cask "google-chrome"
