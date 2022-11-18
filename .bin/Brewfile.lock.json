@@ -224,19 +224,19 @@
     },
     "cask": {
       "postman": {
-        "version": "10.0.1",
+        "version": "10.1.2",
         "options": {
           "full_name": "postman"
         }
       },
       "google-chrome": {
-        "version": "107.0.5304.87",
+        "version": "107.0.5304.110",
         "options": {
           "full_name": "google-chrome"
         }
       },
       "visual-studio-code": {
-        "version": "1.73.0",
+        "version": "1.73.1",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -248,13 +248,13 @@
         }
       },
       "firefox": {
-        "version": "106.0.4",
+        "version": "106.0.5",
         "options": {
           "full_name": "firefox"
         }
       },
       "raycast": {
-        "version": "1.42.2",
+        "version": "1.43.2",
         "options": {
           "full_name": "raycast"
         }
@@ -272,9 +272,27 @@
         }
       },
       "spotify": {
-        "version": "1.1.97.962,24733a46,808",
+        "version": "1.1.98.691,f759311c,1412",
         "options": {
           "full_name": "spotify"
+        }
+      },
+      "docker": {
+        "version": "4.14.0,91374",
+        "options": {
+          "full_name": "docker"
+        }
+      },
+      "xmind": {
+        "version": "22.10.0927",
+        "options": {
+          "full_name": "xmind"
+        }
+      },
+      "slack": {
+        "version": "4.29.144",
+        "options": {
+          "full_name": "slack"
         }
       }
     }
@@ -282,9 +300,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.6.8",
+        "HOMEBREW_VERSION": "3.6.10",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "8b9be9832a04b0e3b2a5916ba7de9bd71c7a038d",
+        "Homebrew/homebrew-core": "ae7840726fa12af8982e973f899c9e26f9d7a957",
         "CLT": "14.0.0.0.1.1661618636",
         "Xcode": "14.1",
         "macOS": "12.6"
