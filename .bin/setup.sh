@@ -11,3 +11,7 @@ sudo softwareupdate --install-rosetta --agree-to-licensesudo softwareupdate --in
 # 隠しファイルの表示
 # $ defaults write com.apple.finder AppleShowAllFiles TRUE
 # $ killall Finder
+
+# シンボリックリンクの作成
+ln -s ~/.dotfiles/.config ~/.config
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
