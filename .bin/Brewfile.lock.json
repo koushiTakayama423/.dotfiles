@@ -299,6 +299,12 @@
         "options": {
           "full_name": "slack"
         }
+      },
+      "microsoft-excel": {
+        "version": "16.70.23021201",
+        "options": {
+          "full_name": "microsoft-excel"
+        }
       }
     }
   },
