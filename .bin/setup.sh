@@ -1,7 +1,11 @@
 #!/bin/bash
 
-echo "Xcodeをインストールします..."
-xcode-select --install
+
+xcode-select -v &> /dev/null
+if [ $? -ne 0 ] ; then
+ echo "Xcodeをインストールします..."
+ xcode-select --install
+fi
 
 echo "rosettaをインストールします..."
 sudo softwareupdate --install-rosetta --agree-to-licensesudo softwareupdate --install-rosetta --agree-to-license

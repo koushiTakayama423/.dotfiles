@@ -5,7 +5,7 @@ if [ $? -ne 0 ] ; then
  echo "homebrewをインストールします..."
  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
- echo "homebrewのPATHを設定します..."
+ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$(whoami)/.zprofile
  eval "$(/opt/homebrew/bin/brew shellenv)"
 
 fi
