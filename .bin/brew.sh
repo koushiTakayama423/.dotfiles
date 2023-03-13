@@ -1,9 +1,14 @@
 #!/bin/bash
 
-echo "homebrewをインストールします..."
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew -v &> /dev/null
+if [ $? -ne 0 ] ; then
+ echo "homebrewをインストールします..."
+ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+ echo "homebrewのPATHを設定します..."
+ eval "$(/opt/homebrew/bin/brew shellenv)"
+
+fi
 
 echo "brew doctorを実行します..."
 brew doctor
