@@ -4,7 +4,6 @@ brew "tmux"
 brew "wget"
 brew "zsh"
 brew "gh"
-brew "docker"
 brew "docker-compose"
 
 cask "postman"
