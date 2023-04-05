@@ -7,7 +7,6 @@ brew "docker-compose"
 
 cask "postman"
 cask "google-chrome"
-cask "firefox"
 cask "visual-studio-code"
 cask "utm"
 cask "raycast"
