@@ -10,7 +10,7 @@ echo "rosettaをインストールします..."
 sudo softwareupdate --install-rosetta --agree-to-licensesudo softwareupdate --install-rosetta --agree-to-license
 
 # エイリアス設定
-alias ls='ls -f -a'
+alias ls='ls -F -a'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
