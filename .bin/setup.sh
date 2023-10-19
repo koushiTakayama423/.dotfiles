@@ -1,10 +1,9 @@
 #!/bin/bash
 
-
 xcode-select -v &> /dev/null
 if [ $? -ne 0 ] ; then
- echo "Xcodeをインストールします..."
- xcode-select --install
+  echo "Xcodeをインストールします..."
+  xcode-select --install
 fi
 
 echo "rosettaをインストールします..."
@@ -16,17 +15,14 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-
 # 隠しファイルの表示
-# $ defaults write com.apple.finder AppleShowAllFiles TRUE
-# $ killall Finder
-
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder
 
 # シンボリックリンクの作成
 if [[ ! -a ~/.congig ]];then
   ln -s ~/.dotfiles/.config ~/.config
 fi
-
 
 if [[ ! -a ~/.zshrc ]];then
   ln -s ~/.dotfiles/.zshrc ~/.zshrc
